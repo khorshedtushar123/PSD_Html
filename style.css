@@ -1,0 +1,498 @@
+/*
+
+Template Name: phototime
+Template Demo: http://awerest.com/demo/softech.it
+
+Purchase: http://spftechit@gmail.com
+
+Author: khorshed
+
+Description: Onepage Bootstrap Multi-Purpose Parallax Retina Template
+Tags: Responsive, Mobile First, Retina, Bootstrap 3, One Page, Multi Page, Multi-Purpose, Agency, Clean, Creative, Minimal, Components, Photography, Portfolio, Business, Corporate, White, Modern
+
+Version: 2.5
+
+---------------
+
+Table of Contents:
+
+
+	1. Typography
+	2. Header Area
+		2.1 Menu Area
+		2.2 Welcome Text 
+		2.3 Social Media 
+	3. Getting Started
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+
+*/
+
+/* ==== 1) General ==== */
+
+/************** 1. Typography ************************/
+
+@font-face {
+	font-family: "gothamRoundedBold";
+	src: url('fonts/something.woff') format('woff');
+}
+@font-face {
+	font-family: "gothamRoundedBook";
+	src: url('fonts/gothamroundedbook.woff') format('woff');
+}
+
+body, p {
+	margin: 0;
+	font-family: "gothamRoundedBook";
+	font-size: 16px;
+	line-height: 1.3em;
+}
+.welcome-text p {
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: "gothamRoundedBold"; 
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	margin-bottom: 15px;
+}
+.welcome-text h2 {
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-family: "gothamRoundedBold";
+	font-weight: normal;
+	font-size: 30px;
+}
+h2 {
+	text-align: center;
+	font-weight: bold;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family: "gothamRoundedBold";
+	letter-spacing: 3px;
+}
+h1 {
+	text-align: center;
+	font-weight: bold;
+	font-family: "gothamRoundedBold";
+	letter-spacing: 3px;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+h3 {
+	color: #16A086;
+	font-family: "gothamRoundedBold";
+	font-size: 20px;
+	text-transform: uppercase;
+	line-height: 1.3em;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.logo-content h4 {
+	font-family: "gothamRoundedBold";
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+p {
+	color: #AEAFB1;
+	letter-spacing: 1px;
+	font-size: 10px;
+	line-height: 2em;
+}
+.logo-content p {
+	margin-top: 10px;
+	font-family: "gothamRoundedBold";
+	font-size: 14px;
+	color: #000000;
+}
+.download-area, p {
+	margin-top: 0;
+	font-family: "gothamRoundedBook";
+	font-weight: 400;
+	font-size: 13px;
+	letter-spacing: 2px;
+}
+
+/*****Header Area Started*****/
+.container {
+	width: 80%;
+	margin: auto;
+	max-width: 960px;
+}
+.header-area {
+	background: url('images/header-bg.jpg') no-repeat 0 0 / 100% 100%;
+	color: #FFFFFF;
+	text-align: center;
+	overflow: hidden;
+	padding: 25px 0;
+}
+
+/***** 2.1 Menu Area ****/
+
+.menu-area ul {
+	text-align: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.menu-area ul li {
+	display: inline-block;
+	margin: 0 24px;
+}
+.menu-area ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	border-bottom: 1px solid transparent;
+	display: inline-block;
+	padding-bottom: 10px;
+	transition: .4s;
+}
+.menu-area ul .logo img {
+	margin: 0 40px;
+	width: 40px;
+	height: auto;
+}
+.menu-area ul .log a:hover {
+	border: none;
+}
+.menu-area ul .log a {
+	border: none;
+}
+
+.menu-area ul li a:hover {
+	color: #16a085;
+}
+
+/***** 2.2 welcome Text ******/
+
+.welcome-text {
+	margin-top: 180px;
+	overflow: hidden;
+}
+
+.btn {
+	text-decoration: none;
+	color: #FFFFFF;
+	background: #16a085;
+	text-transform: uppercase;
+	padding: 10px 25px;
+	border-radius: 2px;
+	display: inline-block;
+	transition: .4s;
+	border: 1px solid transparent;
+}
+.btn:hover {
+	background: #FFFFFF;
+	color: #16a085;
+	border: 1px solid #16a085;
+}
+/**** 2.3 social media ****/
+
+.social-icons {
+	overflow: hidden;
+	margin-top: 130px;
+}
+.social-icons ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.social-icons ul li {
+	display: inline;
+	margin: 0 10px;
+}
+.social-icons ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social-icons ul li a:hover {
+	color: #16a085;
+}
+/*****Getting Started *****/
+
+.getting-started {
+	overflow: hidden;
+	background-color: #F5F6F8;
+}
+.getting-started .text-area {
+	margin-top: 40px;
+	padding-bottom: 60px;
+	background-image: url('images/hand.png');
+	background-repeat: no-repeat;
+	background-size: 50% auto;
+	background-position: top right;
+}
+.getting-started .start-text {
+	width: 50%;
+}
+.text-area p {
+	margin-bottom: 30px;
+}
+
+strong {
+	color: #666666;
+}
+/****Design Area ****/
+
+.desig-area {
+	overflow: hidden;
+	margin-top: 60px;
+}
+.design {
+	background-image: url('images/mobile.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	overflow: hidden;
+	background-size: 30%;
+	background-position: top left;
+
+}
+
+.design-text {
+	width: 40%;
+	float: right;
+	overflow: hidden;
+}	
+.slide {
+	margin: 50px 0;
+}
+.arrow a i {
+	font-size: 30px;
+	height: 30px;
+	width: 30px;
+}
+.slide p {
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+}
+/***** community area ****/
+
+.community-area {
+	padding: 90px 0;
+	text-align: center;
+	overflow: hidden;
+}
+.photo-area {
+	float: left;
+	overflow: hidden;
+	width: 32%;
+	margin-right: 2%;	
+}
+.photo-area:nth-child(3n+1) {
+	margin-right: 0;	
+}
+.slider-icons a i {
+	font-size: 30px;
+	height: 30px;
+	width: 30px;
+}
+.slider-icons {
+	text-align: right;
+}
+.logo-content {
+	text-align: center;
+}
+.logo-content img,
+.logo-content i {
+	width: 55px;
+	font-size: 55px;
+}
+.logo-content h3 {
+	margin: 5px 0;
+}
+
+.photo-area {
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+	 transition: ease-in-out 0.3s;
+    -webkit-transition: ease-in-out 0.3s;
+    -moz-transition: ease-in-out 0.3s;
+    -ms-transition: ease-in-out 0.3s;
+    -o-transition: ease-in-out 0.3s;
+}
+.logo-content {
+	position: absolute;
+	content: "";
+	left: 50%;
+	top:  50%;
+	margin-top: -95px;
+	max-width: 230px;
+	margin-left: -115px;
+	opacity: 0;
+}
+.photo-area:hover .logo-content {
+	opacity: 1;
+	transition: ease-in-out 0.3s;
+    -webkit-transition: ease-in-out 0.3s;
+    -moz-transition: ease-in-out 0.3s;
+    -ms-transition: ease-in-out 0.3s;
+    -o-transition: ease-in-out 0.3s;
+    
+}
+.photo-area:hover .single-photo img {
+	opacity: 0;
+	transition: ease-in-out 0.3s;
+    -webkit-transition: ease-in-out 0.3s;
+    -moz-transition: ease-in-out 0.3s;
+    -ms-transition: ease-in-out 0.3s;
+    -o-transition: ease-in-out 0.3s;
+}
+
+/***subscribe Area *****/
+
+.subscribe-area {
+	background: url('images/subscribe-bg.jpg') no-repeat 0 0 / 100% 100%;
+	padding: 300px 0;
+	overflow: hidden;
+}
+.subscribe-area form {
+	width: 290px;
+	margin: 0 auto;
+}
+.subscribe-area h3 {
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #ffffff;
+	text-align: center;
+	font-family: "gothamRoundedBold";
+}
+.subscribe-area form input[type="email"] {
+	background: #ffffff;
+	padding: 12px 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-radius: 3px 0 0 3px;
+	border: none;
+	margin-right: 0;
+}
+.subscribe-area form button{
+	background: #11a689;
+	color: #ffffff;
+	padding: 12px 20px;
+	border-radius: 0 3px 3px 0;
+	border: none;
+	margin-left: -6px;
+}
+
+/*****Download Area *****/
+
+.download-area {
+	background: #F5F6F7;
+	overflow: hidden;
+	padding: 100px 0;
+	text-align: center;
+}
+
+h1 {
+	text-transform: uppercase;
+	color: #373737;
+    font-size: 23px;
+    letter-spacing: 3px;
+	font-weight: bold;
+
+}
+
+.app-btn {
+	margin: 40px 0;
+}
+.app-btn button {
+    background-color: #1abc9c;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 700;
+    letter-spacing: 3px;
+    position: relative;
+    padding: 15px 80px 15px 25px;
+    border: 1px solid transparent;
+    margin: 0 15px;
+}
+.app-btn button i {
+    background-color: #16a085;
+	color:#ffffff;
+    font-size: 25px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    height: 100%;
+    content: "";
+    line-height: 48px;
+}
+.app-btn button a:hover i {
+	color:#16a085;
+	background-color: #ffffff;
+}
+
+/*****footer-area****/
+.footer-area {
+	padding: 50px 0;
+}
+.footer-left {
+	width: 80%;
+	float: left;
+	overflow: hidden;
+}
+.footer-right {
+	overflow: hidden;
+	text-align: right;
+}
+.footer-area ul {
+	list-style: none;
+}
+.footer-area ul li {
+	display: inline;
+}
+.footer-area ul li a {
+	color: #373737;
+	margin: 0;
+	border-right: 2px solid #16a085;
+	padding: 0 10px;
+	line-height: 1;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.footer-area ul li:hover a {
+	color: #16a085;
+}
+.footer-area ul {
+	margin: 0;
+	padding: 0;
+}
+.footer-area ul li a:first-child  {
+	padding-left: 0;
+}
+.footer-area ul li:last-child a {
+	border-right: none;
+}
+.copyright {
+	letter-spacing: 2px;
+	font-size: 18px;
+	font-weight:700;
+	color: #373737;
+	margin-top: 15px;
+}
+.copyright a {
+	text-decoration: none;
+	color: #373737;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+

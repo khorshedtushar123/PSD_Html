@@ -1,0 +1,89 @@
+
+
+/* Mobile Screen  320px*/
+
+@media only screen and (max-width: 767px) {
+	.container {
+		width: 96%;
+		max-width: 960px;
+	}
+	.photo-area {
+    float: none;
+    overflow: hidden;
+    width: 100%;
+    margin-right: 0;
+}
+.single-photo img {
+    width: 100%;
+}	
+.app-btn {
+	  min-width: 248px;
+}
+.app-btn button:last-child {
+    margin-top: 15px;
+    min-width: 248px;
+}
+
+.text-area p {
+    color: #16A085;
+    font-weight: 700;
+}
+.text-area p br {
+    display: none;
+}
+.header-area {
+    background-size: cover;
+}
+
+.welcome-text h2 {
+    letter-spacing: 0;
+ 
+} 
+.footer-right {
+        overflow: hidden;
+        text-align: center;
+        width: 100%;
+        float: unset;
+    }
+    .footer-left {
+        width: 100%;
+        float: unset;
+        overflow: hidden;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    nav.footer-menu ul li {
+        margin: 15px 0;
+        display: block;
+    }
+    nav.footer-menu ul li a {
+        border-right: none;
+    }
+
+	.getting-started .text-area {
+    background-size: 100%;
+   
+}
+    .design-text p {
+    color: black;
+    letter-spacing: 3px;
+    margin-bottom: 26px;
+}
+	.design-text {
+    width: 100%;
+    float: right;
+    overflow: hidden;
+}
+	.design-text h3 {
+    letter-spacing: 0;
+    
+}
+	.design {
+		background-position: right top;
+	}
+	.menu-area ul li {
+		display: block;
+		margin: 16px 0;
+	}
+}
+/*******************Responsive ends*******/
